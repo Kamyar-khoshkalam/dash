@@ -1,0 +1,26 @@
+.Goh{
+    width: 500px;
+}
+
+.Goh p{
+    position: relative;
+    margin: px;
+    font-size: 20px;
+    z-index: 2000;
+}
+
+.gohhhh{
+    position: fixed ;
+    z-index: 200;
+    top: 20px;
+    left: 500px;
+}
+
+.ghkhor{
+    width: 300px;
+    height: 2000px;
+}
+
+img{
+    width: 100%;
+}
