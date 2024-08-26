@@ -2,11 +2,11 @@ import React from 'react'
 
 const ListItems = ({item,handleCheck,handleDelete}) => {
   return (
-    <li className='item' key={item.id}>
+    <li className='item'>
               <input
                 type='checkbox'
                 checked={item.checked}
-                onClick={()=>handleCheck(item.id)}
+                onChange={()=>handleCheck(item.id)}
               >
               </input>
               <label style={(item.checked) ? {textDecoration:'line-through'}:null}>{item.item}</label>

@@ -8,7 +8,7 @@ const AddItem = ({newItem,setNewItem,handleSubmit}) => {
         <input autoFocus 
         id='addItem' 
         type="text" 
-        placeholder='add Item'
+        placeholder='Add Item'
         required 
         value={newItem}
         onChange={(e)=>setNewItem(e.target.value)}

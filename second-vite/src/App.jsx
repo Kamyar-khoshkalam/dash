@@ -44,6 +44,7 @@ function App() {
   const handleSubmit=(e)=>{
     e.preventDefault();
     if (!newItem) return;
+    addItem(newItem)
     setNewItem('');
   }
 
